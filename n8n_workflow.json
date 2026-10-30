@@ -1,0 +1,59 @@
+{
+  "name": "Influencer Outreach Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "minutes", "minutesInterval": 30 }] }
+      },
+      "name": "Every 30 min",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [200, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8000/api/discover?niche=fitness&limit=50",
+        "options": {}
+      },
+      "name": "Discover",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [420, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8000/api/filter?niche=fitness",
+        "options": {}
+      },
+      "name": "Filter",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [640, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8000/api/send",
+        "options": {}
+      },
+      "name": "Personalize + Send",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [860, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "http://localhost:8000/api/log",
+        "options": {}
+      },
+      "name": "Fetch Log",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [1080, 300]
+    }
+  ],
+  "connections": {
+    "Every 30 min": { "main": [[{ "node": "Discover", "type": "main", "index": 0 }]] },
+    "Discover":     { "main": [[{ "node": "Filter", "type": "main", "index": 0 }]] },
+    "Filter":       { "main": [[{ "node": "Personalize + Send", "type": "main", "index": 0 }]] },
+    "Personalize + Send": { "main": [[{ "node": "Fetch Log", "type": "main", "index": 0 }]] }
+  }
+}

@@ -1,0 +1,617 @@
+2026-10-30 16:10:01,786 [INFO] main: Database initialised
+2026-10-30 16:16:28,979 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-30 16:16:28,981 [INFO] apscheduler.scheduler: Added job "run_full_pipeline" to job store "default"
+2026-10-30 16:16:28,982 [INFO] apscheduler.scheduler: Scheduler started
+2026-10-30 16:16:28,982 [INFO] automation: Scheduler started: every 10 min (niche=fintech)
+2026-10-30 16:16:28,982 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:10:00], next run at: 2026-10-30 16:16:28 IST)" (scheduled at 2026-10-30 16:16:28.979462+05:30)
+2026-10-30 16:16:28,983 [INFO] automation: ============================================================
+2026-10-30 16:16:28,984 [INFO] automation: PIPELINE START niche=fintech at 2026-10-30T16:16:28.984457
+2026-10-30 16:16:28,990 [INFO] automation: [DISCOVER] fetched=50 new_inserted=46 niche=fintech
+2026-10-30 16:16:30,993 [INFO] automation: [FILTER] total=96 passed=32 niche=fintech
+2026-10-30 16:16:31,347 [INFO] automation: [SEND] completed sent=27
+2026-10-30 16:16:31,348 [INFO] automation: PIPELINE END
+2026-10-30 16:16:31,348 [INFO] automation: ============================================================
+2026-10-30 16:16:31,360 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:10:00], next run at: 2026-10-30 16:26:28 IST)" executed successfully
+2026-10-30 16:17:10,428 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-10-30 16:17:10,428 [INFO] automation: Scheduler stopped
+2026-10-30 16:21:07,490 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:21:09,537 [INFO] main: Database initialised
+2026-10-30 16:21:33,965 [INFO] personalization: [Personalize] Template generated successfully: Mina Kowalski
+2026-10-30 16:21:33,965 [INFO] personalization: [Personalize] Template generated successfully: Ava Torres
+2026-10-30 16:21:33,965 [INFO] personalization: [Personalize] Template generated successfully: Maya Santos
+2026-10-30 16:21:33,966 [INFO] personalization: [Personalize] Template generated successfully: Sophie Nguyen
+2026-10-30 16:21:33,966 [INFO] personalization: [Personalize] Template generated successfully: Casey Nakamura
+2026-10-30 16:21:33,966 [INFO] personalization: [Personalize] Template generated successfully: Tara Kim
+2026-10-30 16:21:33,966 [INFO] personalization: [Personalize] Template generated successfully: Carlos Kim
+2026-10-30 16:21:33,966 [INFO] personalization: [Personalize] Template generated successfully: Suki Tanaka
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Leila Nakamura
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Noah Nakamura
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Suki Nguyen
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Leila Hayes
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Maya Dubois
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Lucas Tanaka
+2026-10-30 16:21:33,967 [INFO] personalization: [Personalize] Template generated successfully: Emma Nakamura
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Kira Hayes
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Liam Okafor
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Mateo Reed
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Parker Martinez
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Leila J. Patel
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Diego Kim
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Kavya Santos
+2026-10-30 16:21:33,968 [INFO] personalization: [Personalize] Template generated successfully: Carlos Martinez
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Omar Kim
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Lily Monroe
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Omar Hassan
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Ananya Foster
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Quinn Santos
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Omar Ferreira
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Zoe Kim
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Suki Foster
+2026-10-30 16:21:33,969 [INFO] personalization: [Personalize] Template generated successfully: Quinn Foster
+2026-10-30 16:21:43,286 [INFO] personalization: [Personalize] Template generated successfully: Mina Kowalski
+2026-10-30 16:21:43,295 [INFO] personalization: [Personalize] Template generated successfully: Ava Torres
+2026-10-30 16:21:43,298 [INFO] personalization: [Personalize] Template generated successfully: Maya Santos
+2026-10-30 16:21:43,300 [INFO] personalization: [Personalize] Template generated successfully: Sophie Nguyen
+2026-10-30 16:21:43,305 [INFO] personalization: [Personalize] Template generated successfully: Casey Nakamura
+2026-10-30 16:21:43,307 [INFO] personalization: [Personalize] Template generated successfully: Tara Kim
+2026-10-30 16:21:43,309 [INFO] personalization: [Personalize] Template generated successfully: Carlos Kim
+2026-10-30 16:21:43,311 [INFO] personalization: [Personalize] Template generated successfully: Suki Tanaka
+2026-10-30 16:21:43,313 [INFO] personalization: [Personalize] Template generated successfully: Leila Nakamura
+2026-10-30 16:21:43,315 [INFO] personalization: [Personalize] Template generated successfully: Noah Nakamura
+2026-10-30 16:21:43,322 [INFO] personalization: [Personalize] Template generated successfully: Suki Nguyen
+2026-10-30 16:21:43,327 [INFO] personalization: [Personalize] Template generated successfully: Leila Hayes
+2026-10-30 16:21:43,330 [INFO] personalization: [Personalize] Template generated successfully: Maya Dubois
+2026-10-30 16:21:43,332 [INFO] personalization: [Personalize] Template generated successfully: Lucas Tanaka
+2026-10-30 16:21:43,333 [INFO] personalization: [Personalize] Template generated successfully: Emma Nakamura
+2026-10-30 16:21:43,336 [INFO] personalization: [Personalize] Template generated successfully: Kira Hayes
+2026-10-30 16:21:43,340 [INFO] personalization: [Personalize] Template generated successfully: Liam Okafor
+2026-10-30 16:21:43,345 [INFO] personalization: [Personalize] Template generated successfully: Mateo Reed
+2026-10-30 16:21:43,393 [INFO] personalization: [Personalize] Template generated successfully: Parker Martinez
+2026-10-30 16:21:43,399 [INFO] personalization: [Personalize] Template generated successfully: Leila J. Patel
+2026-10-30 16:21:43,405 [INFO] personalization: [Personalize] Template generated successfully: Diego Kim
+2026-10-30 16:21:43,417 [INFO] personalization: [Personalize] Template generated successfully: Kavya Santos
+2026-10-30 16:21:43,421 [INFO] personalization: [Personalize] Template generated successfully: Carlos Martinez
+2026-10-30 16:21:43,424 [INFO] personalization: [Personalize] Template generated successfully: Omar Kim
+2026-10-30 16:21:43,427 [INFO] personalization: [Personalize] Template generated successfully: Lily Monroe
+2026-10-30 16:21:43,430 [INFO] personalization: [Personalize] Template generated successfully: Omar Hassan
+2026-10-30 16:21:43,433 [INFO] personalization: [Personalize] Template generated successfully: Ananya Foster
+2026-10-30 16:21:43,439 [INFO] personalization: [Personalize] Template generated successfully: Quinn Santos
+2026-10-30 16:21:43,445 [INFO] personalization: [Personalize] Template generated successfully: Omar Ferreira
+2026-10-30 16:21:43,449 [INFO] personalization: [Personalize] Template generated successfully: Zoe Kim
+2026-10-30 16:21:43,452 [INFO] personalization: [Personalize] Template generated successfully: Suki Foster
+2026-10-30 16:21:43,456 [INFO] personalization: [Personalize] Template generated successfully: Quinn Foster
+2026-10-30 16:23:42,491 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:23:43,307 [INFO] main: Database initialised
+2026-10-30 16:26:56,419 [INFO] personalization: [Personalize] Template generated successfully: Mina Kowalski
+2026-10-30 16:26:56,419 [INFO] personalization: [Personalize] Template generated successfully: Ava Torres
+2026-10-30 16:26:56,419 [INFO] personalization: [Personalize] Template generated successfully: Maya Santos
+2026-10-30 16:26:56,420 [INFO] personalization: [Personalize] Template generated successfully: Sophie Nguyen
+2026-10-30 16:26:56,420 [INFO] personalization: [Personalize] Template generated successfully: Casey Nakamura
+2026-10-30 16:26:56,420 [INFO] personalization: [Personalize] Template generated successfully: Tara Kim
+2026-10-30 16:26:56,420 [INFO] personalization: [Personalize] Template generated successfully: Carlos Kim
+2026-10-30 16:26:56,421 [INFO] personalization: [Personalize] Template generated successfully: Suki Tanaka
+2026-10-30 16:26:56,421 [INFO] personalization: [Personalize] Template generated successfully: Leila Nakamura
+2026-10-30 16:26:56,421 [INFO] personalization: [Personalize] Template generated successfully: Noah Nakamura
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Suki Nguyen
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Leila Hayes
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Maya Dubois
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Lucas Tanaka
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Emma Nakamura
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Kira Hayes
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Liam Okafor
+2026-10-30 16:26:56,422 [INFO] personalization: [Personalize] Template generated successfully: Mateo Reed
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Parker Martinez
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Leila J. Patel
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Diego Kim
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Kavya Santos
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Carlos Martinez
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Omar Kim
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Lily Monroe
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Omar Hassan
+2026-10-30 16:26:56,423 [INFO] personalization: [Personalize] Template generated successfully: Ananya Foster
+2026-10-30 16:26:56,424 [INFO] personalization: [Personalize] Template generated successfully: Quinn Santos
+2026-10-30 16:26:56,424 [INFO] personalization: [Personalize] Template generated successfully: Omar Ferreira
+2026-10-30 16:26:56,424 [INFO] personalization: [Personalize] Template generated successfully: Zoe Kim
+2026-10-30 16:26:56,424 [INFO] personalization: [Personalize] Template generated successfully: Suki Foster
+2026-10-30 16:26:56,424 [INFO] personalization: [Personalize] Template generated successfully: Quinn Foster
+2026-10-30 16:27:11,956 [INFO] personalization: [Personalize] Template generated successfully: Mina Kowalski
+2026-10-30 16:27:11,960 [INFO] personalization: [Personalize] Template generated successfully: Ava Torres
+2026-10-30 16:27:11,963 [INFO] personalization: [Personalize] Template generated successfully: Maya Santos
+2026-10-30 16:27:11,966 [INFO] personalization: [Personalize] Template generated successfully: Sophie Nguyen
+2026-10-30 16:27:11,968 [INFO] personalization: [Personalize] Template generated successfully: Casey Nakamura
+2026-10-30 16:27:11,971 [INFO] personalization: [Personalize] Template generated successfully: Tara Kim
+2026-10-30 16:27:11,974 [INFO] personalization: [Personalize] Template generated successfully: Carlos Kim
+2026-10-30 16:27:11,976 [INFO] personalization: [Personalize] Template generated successfully: Suki Tanaka
+2026-10-30 16:27:11,978 [INFO] personalization: [Personalize] Template generated successfully: Leila Nakamura
+2026-10-30 16:27:11,980 [INFO] personalization: [Personalize] Template generated successfully: Noah Nakamura
+2026-10-30 16:27:11,982 [INFO] personalization: [Personalize] Template generated successfully: Suki Nguyen
+2026-10-30 16:27:11,984 [INFO] personalization: [Personalize] Template generated successfully: Leila Hayes
+2026-10-30 16:27:11,987 [INFO] personalization: [Personalize] Template generated successfully: Maya Dubois
+2026-10-30 16:27:11,991 [INFO] personalization: [Personalize] Template generated successfully: Lucas Tanaka
+2026-10-30 16:27:11,993 [INFO] personalization: [Personalize] Template generated successfully: Emma Nakamura
+2026-10-30 16:27:11,995 [INFO] personalization: [Personalize] Template generated successfully: Kira Hayes
+2026-10-30 16:27:11,997 [INFO] personalization: [Personalize] Template generated successfully: Liam Okafor
+2026-10-30 16:27:11,999 [INFO] personalization: [Personalize] Template generated successfully: Mateo Reed
+2026-10-30 16:27:12,000 [INFO] personalization: [Personalize] Template generated successfully: Parker Martinez
+2026-10-30 16:27:12,004 [INFO] personalization: [Personalize] Template generated successfully: Leila J. Patel
+2026-10-30 16:27:12,007 [INFO] personalization: [Personalize] Template generated successfully: Diego Kim
+2026-10-30 16:27:12,008 [INFO] personalization: [Personalize] Template generated successfully: Kavya Santos
+2026-10-30 16:27:12,010 [INFO] personalization: [Personalize] Template generated successfully: Carlos Martinez
+2026-10-30 16:27:12,012 [INFO] personalization: [Personalize] Template generated successfully: Omar Kim
+2026-10-30 16:27:12,014 [INFO] personalization: [Personalize] Template generated successfully: Lily Monroe
+2026-10-30 16:27:12,016 [INFO] personalization: [Personalize] Template generated successfully: Omar Hassan
+2026-10-30 16:27:12,017 [INFO] personalization: [Personalize] Template generated successfully: Ananya Foster
+2026-10-30 16:27:12,022 [INFO] personalization: [Personalize] Template generated successfully: Quinn Santos
+2026-10-30 16:27:12,023 [INFO] personalization: [Personalize] Template generated successfully: Omar Ferreira
+2026-10-30 16:27:12,025 [INFO] personalization: [Personalize] Template generated successfully: Zoe Kim
+2026-10-30 16:27:12,027 [INFO] personalization: [Personalize] Template generated successfully: Suki Foster
+2026-10-30 16:27:12,029 [INFO] personalization: [Personalize] Template generated successfully: Quinn Foster
+2026-10-30 16:28:38,436 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:28:39,516 [INFO] main: Database initialised
+2026-10-30 16:28:53,462 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:28:54,300 [INFO] main: Database initialised
+2026-10-30 16:29:06,076 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:29:07,244 [INFO] main: Database initialised
+2026-10-30 16:29:46,258 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:29:47,340 [INFO] main: Database initialised
+2026-10-30 16:30:18,571 [INFO] personalization: [Personalize] Template generated successfully: Ryan Hayes
+2026-10-30 16:30:18,571 [INFO] personalization: [Personalize] Template generated successfully: Parker Nguyen
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Maya Cole
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Jae Kowalski
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Jade Brooks
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Tara Reed
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Riya Chen
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Quinn Dubois
+2026-10-30 16:30:18,572 [INFO] personalization: [Personalize] Template generated successfully: Mason Singh
+2026-10-30 16:30:18,573 [INFO] personalization: [Personalize] Template generated successfully: Lily Adeyemi
+2026-10-30 16:30:18,573 [INFO] personalization: [Personalize] Template generated successfully: Kavya Torres
+2026-10-30 16:30:18,573 [INFO] personalization: [Personalize] Template generated successfully: Jack Price
+2026-10-30 16:30:18,573 [INFO] personalization: [Personalize] Template generated successfully: Sara Ferreira
+2026-10-30 16:30:18,573 [INFO] personalization: [Personalize] Template generated successfully: Kira Patel
+2026-10-30 16:30:18,573 [INFO] personalization: [Personalize] Template generated successfully: Ethan Rivera
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Mateo Brooks
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Sophie Tanaka
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Mason Price
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Avery Rossi
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Jae Ramirez
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Zoe Tanaka
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Parker Hayes
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Maya Nguyen
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Kira Nguyen
+2026-10-30 16:30:18,574 [INFO] personalization: [Personalize] Template generated successfully: Alex Nakamura
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Aisha Tanaka
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Kira Torres
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Kwame Muller
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Zoe Nakamura
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Leila Rivera
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Avery Patel
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Miguel Foster
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Ryan Nakamura
+2026-10-30 16:30:18,575 [INFO] personalization: [Personalize] Template generated successfully: Miguel Brooks
+2026-10-30 16:30:22,645 [INFO] personalization: [Personalize] Template generated successfully: Ryan Hayes
+2026-10-30 16:30:22,647 [INFO] sending: [Send] Simulated : Ryan Hayes <ryanhayes@protonmail.com>
+2026-10-30 16:30:22,653 [INFO] personalization: [Personalize] Template generated successfully: Parker Nguyen
+2026-10-30 16:30:22,655 [INFO] sending: [Send] Simulated : Parker Nguyen <parkernguyen@hotmail.com>
+2026-10-30 16:30:22,659 [INFO] personalization: [Personalize] Template generated successfully: Maya Cole
+2026-10-30 16:30:22,662 [INFO] sending: [Send] Skipped (no email): Maya Cole
+2026-10-30 16:30:22,663 [INFO] personalization: [Personalize] Template generated successfully: Jae Kowalski
+2026-10-30 16:30:22,664 [INFO] sending: [Send] Simulated : Jae Kowalski <jaekowalski@yahoo.com>
+2026-10-30 16:30:22,666 [INFO] personalization: [Personalize] Template generated successfully: Jade Brooks
+2026-10-30 16:30:22,672 [INFO] sending: [Send] Skipped (no email): Jade Brooks
+2026-10-30 16:30:22,672 [INFO] personalization: [Personalize] Template generated successfully: Tara Reed
+2026-10-30 16:30:22,674 [INFO] sending: [Send] Simulated : Tara Reed <tarareed@me.com>
+2026-10-30 16:30:22,677 [INFO] personalization: [Personalize] Template generated successfully: Riya Chen
+2026-10-30 16:30:22,678 [INFO] sending: [Send] Simulated : Riya Chen <riyachen@protonmail.com>
+2026-10-30 16:30:22,681 [INFO] personalization: [Personalize] Template generated successfully: Quinn Dubois
+2026-10-30 16:30:22,682 [INFO] sending: [Send] Simulated : Quinn Dubois <quinndubois@me.com>
+2026-10-30 16:30:22,685 [INFO] personalization: [Personalize] Template generated successfully: Mason Singh
+2026-10-30 16:30:22,691 [INFO] sending: [Send] Skipped (no email): Mason Singh
+2026-10-30 16:30:22,691 [INFO] personalization: [Personalize] Template generated successfully: Lily Adeyemi
+2026-10-30 16:30:22,695 [INFO] sending: [Send] Skipped (no email): Lily Adeyemi
+2026-10-30 16:30:22,695 [INFO] personalization: [Personalize] Template generated successfully: Kavya Torres
+2026-10-30 16:30:22,696 [INFO] sending: [Send] Simulated : Kavya Torres <kavyatorres@me.com>
+2026-10-30 16:30:22,698 [INFO] personalization: [Personalize] Template generated successfully: Jack Price
+2026-10-30 16:30:22,700 [INFO] sending: [Send] Simulated : Jack Price <jackprice@yahoo.com>
+2026-10-30 16:30:22,702 [INFO] personalization: [Personalize] Template generated successfully: Sara Ferreira
+2026-10-30 16:30:22,707 [INFO] sending: [Send] Skipped (no email): Sara Ferreira
+2026-10-30 16:30:22,708 [INFO] personalization: [Personalize] Template generated successfully: Kira Patel
+2026-10-30 16:30:22,709 [INFO] sending: [Send] Simulated : Kira Patel <kirapatel@me.com>
+2026-10-30 16:30:22,712 [INFO] personalization: [Personalize] Template generated successfully: Ethan Rivera
+2026-10-30 16:30:22,713 [INFO] sending: [Send] Simulated : Ethan Rivera <ethanrivera@hotmail.com>
+2026-10-30 16:30:22,716 [INFO] personalization: [Personalize] Template generated successfully: Mateo Brooks
+2026-10-30 16:30:22,721 [INFO] sending: [Send] Skipped (no email): Mateo Brooks
+2026-10-30 16:30:22,721 [INFO] personalization: [Personalize] Template generated successfully: Sophie Tanaka
+2026-10-30 16:30:22,723 [INFO] sending: [Send] Simulated : Sophie Tanaka <sophietanaka@hotmail.com>
+2026-10-30 16:30:22,726 [INFO] personalization: [Personalize] Template generated successfully: Mason Price
+2026-10-30 16:30:22,727 [INFO] sending: [Send] Simulated : Mason Price <masonprice@gmail.com>
+2026-10-30 16:30:22,730 [INFO] personalization: [Personalize] Template generated successfully: Avery Rossi
+2026-10-30 16:30:22,731 [INFO] sending: [Send] Simulated : Avery Rossi <averyrossi@me.com>
+2026-10-30 16:30:22,734 [INFO] personalization: [Personalize] Template generated successfully: Jae Ramirez
+2026-10-30 16:30:22,735 [INFO] sending: [Send] Simulated : Jae Ramirez <jaeramirez@hotmail.com>
+2026-10-30 16:30:22,739 [INFO] personalization: [Personalize] Template generated successfully: Zoe Tanaka
+2026-10-30 16:30:22,740 [INFO] sending: [Send] Simulated : Zoe Tanaka <zoetanaka@icloud.com>
+2026-10-30 16:30:22,743 [INFO] personalization: [Personalize] Template generated successfully: Parker Hayes
+2026-10-30 16:30:22,744 [INFO] sending: [Send] Simulated : Parker Hayes <parkerhayes@outlook.com>
+2026-10-30 16:30:22,747 [INFO] personalization: [Personalize] Template generated successfully: Maya Nguyen
+2026-10-30 16:30:22,748 [INFO] sending: [Send] Simulated : Maya Nguyen <mayanguyen@hotmail.com>
+2026-10-30 16:30:22,751 [INFO] personalization: [Personalize] Template generated successfully: Kira Nguyen
+2026-10-30 16:30:22,752 [INFO] sending: [Send] Simulated : Kira Nguyen <kiranguyen@hotmail.com>
+2026-10-30 16:30:22,756 [INFO] personalization: [Personalize] Template generated successfully: Alex Nakamura
+2026-10-30 16:30:22,760 [INFO] sending: [Send] Skipped (no email): Alex Nakamura
+2026-10-30 16:30:22,760 [INFO] personalization: [Personalize] Template generated successfully: Aisha Tanaka
+2026-10-30 16:30:22,761 [INFO] sending: [Send] Simulated : Aisha Tanaka <aishatanaka@icloud.com>
+2026-10-30 16:30:22,763 [INFO] personalization: [Personalize] Template generated successfully: Kira Torres
+2026-10-30 16:30:22,767 [INFO] sending: [Send] Skipped (no email): Kira Torres
+2026-10-30 16:30:22,767 [INFO] personalization: [Personalize] Template generated successfully: Kwame Muller
+2026-10-30 16:30:22,768 [INFO] sending: [Send] Simulated : Kwame Muller <kwamemuller@me.com>
+2026-10-30 16:30:22,772 [INFO] personalization: [Personalize] Template generated successfully: Zoe Nakamura
+2026-10-30 16:30:22,776 [INFO] sending: [Send] Skipped (no email): Zoe Nakamura
+2026-10-30 16:30:22,776 [INFO] personalization: [Personalize] Template generated successfully: Leila Rivera
+2026-10-30 16:30:22,778 [INFO] sending: [Send] Simulated : Leila Rivera <leilarivera@yahoo.com>
+2026-10-30 16:30:22,780 [INFO] personalization: [Personalize] Template generated successfully: Avery Patel
+2026-10-30 16:30:22,782 [INFO] sending: [Send] Simulated : Avery Patel <averypatel@me.com>
+2026-10-30 16:30:22,784 [INFO] personalization: [Personalize] Template generated successfully: Miguel Foster
+2026-10-30 16:30:22,789 [INFO] sending: [Send] Skipped (no email): Miguel Foster
+2026-10-30 16:30:22,790 [INFO] personalization: [Personalize] Template generated successfully: Ryan Nakamura
+2026-10-30 16:30:22,791 [INFO] sending: [Send] Simulated : Ryan Nakamura <ryannakamura@hotmail.com>
+2026-10-30 16:30:22,793 [INFO] personalization: [Personalize] Template generated successfully: Miguel Brooks
+2026-10-30 16:30:22,795 [INFO] sending: [Send] Simulated : Miguel Brooks <miguelbrooks@yahoo.com>
+2026-10-30 16:35:17,328 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-30 16:35:17,330 [INFO] apscheduler.scheduler: Added job "run_full_pipeline" to job store "default"
+2026-10-30 16:35:17,331 [INFO] apscheduler.scheduler: Scheduler started
+2026-10-30 16:35:17,331 [INFO] automation: Scheduler started: every 2 min (niche=fitness)
+2026-10-30 16:35:17,332 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:02:00], next run at: 2026-10-30 16:37:17 IST)" (scheduled at 2026-10-30 16:35:17.327224+05:30)
+2026-10-30 16:35:17,333 [INFO] automation: ============================================================
+2026-10-30 16:35:17,333 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:35:17.333130
+2026-10-30 16:35:17,351 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:35:17,375 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:35:17,381 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:35:17,383 [INFO] automation: PIPELINE END
+2026-10-30 16:35:17,383 [INFO] automation: ============================================================
+2026-10-30 16:35:17,385 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:02:00], next run at: 2026-10-30 16:37:17 IST)" executed successfully
+2026-10-30 16:37:17,332 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:02:00], next run at: 2026-10-30 16:39:17 IST)" (scheduled at 2026-10-30 16:37:17.327224+05:30)
+2026-10-30 16:37:17,333 [INFO] automation: ============================================================
+2026-10-30 16:37:17,333 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:37:17.333224
+2026-10-30 16:37:17,340 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:37:17,365 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:37:17,371 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:37:17,372 [INFO] automation: PIPELINE END
+2026-10-30 16:37:17,372 [INFO] automation: ============================================================
+2026-10-30 16:37:17,375 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:02:00], next run at: 2026-10-30 16:39:17 IST)" executed successfully
+2026-10-30 16:39:17,334 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:02:00], next run at: 2026-10-30 16:41:17 IST)" (scheduled at 2026-10-30 16:39:17.327224+05:30)
+2026-10-30 16:39:17,336 [INFO] automation: ============================================================
+2026-10-30 16:39:17,336 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:39:17.336323
+2026-10-30 16:39:17,345 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:39:17,355 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:39:17,359 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:39:17,361 [INFO] automation: PIPELINE END
+2026-10-30 16:39:17,361 [INFO] automation: ============================================================
+2026-10-30 16:39:17,362 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:02:00], next run at: 2026-10-30 16:41:17 IST)" executed successfully
+2026-10-30 16:39:32,618 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-10-30 16:39:32,618 [INFO] automation: Scheduler stopped
+2026-10-30 16:42:06,453 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:42:07,368 [INFO] main: Database initialised
+2026-10-30 16:42:16,195 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-30 16:42:16,197 [INFO] apscheduler.scheduler: Added job "run_full_pipeline" to job store "default"
+2026-10-30 16:42:16,198 [INFO] apscheduler.scheduler: Scheduler started
+2026-10-30 16:42:16,199 [INFO] automation: Scheduler started: every 1 min (niche=fitness)
+2026-10-30 16:42:16,199 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:43:16 IST)" (scheduled at 2026-10-30 16:42:16.195300+05:30)
+2026-10-30 16:42:16,202 [INFO] automation: ============================================================
+2026-10-30 16:42:16,203 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:42:16.203358
+2026-10-30 16:42:16,223 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:42:16,242 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:42:16,246 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:42:16,248 [INFO] automation: PIPELINE END
+2026-10-30 16:42:16,248 [INFO] automation: ============================================================
+2026-10-30 16:42:16,248 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:42:16
+2026-10-30 16:42:16,248 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:43:16 IST)" executed successfully
+2026-10-30 16:43:16,199 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:44:16 IST)" (scheduled at 2026-10-30 16:43:16.195300+05:30)
+2026-10-30 16:43:16,200 [INFO] automation: ============================================================
+2026-10-30 16:43:16,200 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:43:16.200540
+2026-10-30 16:43:16,210 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:43:16,222 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:43:16,225 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:43:16,226 [INFO] automation: PIPELINE END
+2026-10-30 16:43:16,226 [INFO] automation: ============================================================
+2026-10-30 16:43:16,226 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:43:16
+2026-10-30 16:43:16,226 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:44:16 IST)" executed successfully
+2026-10-30 16:44:16,210 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:45:16 IST)" (scheduled at 2026-10-30 16:44:16.195300+05:30)
+2026-10-30 16:44:16,211 [INFO] automation: ============================================================
+2026-10-30 16:44:16,211 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:44:16.211703
+2026-10-30 16:44:16,220 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:44:16,234 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:44:16,236 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:44:16,237 [INFO] automation: PIPELINE END
+2026-10-30 16:44:16,237 [INFO] automation: ============================================================
+2026-10-30 16:44:16,238 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:44:16
+2026-10-30 16:44:16,238 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:45:16 IST)" executed successfully
+2026-10-30 16:45:07,442 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-10-30 16:45:07,442 [INFO] automation: Scheduler stopped
+2026-10-30 16:45:07,443 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 16:45:08,310 [INFO] main: Database initialised
+2026-10-30 16:45:51,698 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-30 16:45:51,700 [INFO] apscheduler.scheduler: Added job "run_full_pipeline" to job store "default"
+2026-10-30 16:45:51,701 [INFO] apscheduler.scheduler: Scheduler started
+2026-10-30 16:45:51,702 [INFO] automation: Scheduler started: every 30 min (niche=fitness)
+2026-10-30 16:45:51,702 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:30:00], next run at: 2026-10-30 17:15:51 IST)" (scheduled at 2026-10-30 16:45:51.697598+05:30)
+2026-10-30 16:45:51,703 [INFO] automation: ============================================================
+2026-10-30 16:45:51,704 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:45:51.704601
+2026-10-30 16:45:51,731 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:45:51,731 [INFO] automation: [DISCOVER] OK : 0
+2026-10-30 16:45:51,743 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:45:51,744 [INFO] automation: [FILTER] OK : 30
+2026-10-30 16:45:51,746 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:45:51,746 [INFO] automation: [SEND] OK : 0
+2026-10-30 16:45:51,746 [INFO] automation: PIPELINE END
+2026-10-30 16:45:51,746 [INFO] automation: ============================================================
+2026-10-30 16:45:51,746 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:45:51
+2026-10-30 16:45:51,746 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:30:00], next run at: 2026-10-30 17:15:51 IST)" executed successfully
+2026-10-30 16:47:02,488 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-10-30 16:47:02,489 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-30 16:47:02,490 [INFO] apscheduler.scheduler: Added job "run_full_pipeline" to job store "default"
+2026-10-30 16:47:02,491 [INFO] apscheduler.scheduler: Scheduler started
+2026-10-30 16:47:02,492 [INFO] automation: Scheduler started: every 1 min (niche=fitness)
+2026-10-30 16:47:02,492 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:47:02 IST)" (scheduled at 2026-10-30 16:47:02.489755+05:30)
+2026-10-30 16:47:02,494 [INFO] automation: ============================================================
+2026-10-30 16:47:02,495 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:47:02.495753
+2026-10-30 16:47:02,507 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:47:02,507 [INFO] automation: [DISCOVER] OK : 0
+2026-10-30 16:47:02,527 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:47:02,527 [INFO] automation: [FILTER] OK : 30
+2026-10-30 16:47:02,529 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:47:02,529 [INFO] automation: [SEND] OK : 0
+2026-10-30 16:47:02,529 [INFO] automation: PIPELINE END
+2026-10-30 16:47:02,529 [INFO] automation: ============================================================
+2026-10-30 16:47:02,529 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:47:02
+2026-10-30 16:47:02,529 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:48:02 IST)" executed successfully
+2026-10-30 16:48:02,501 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:49:02 IST)" (scheduled at 2026-10-30 16:48:02.489755+05:30)
+2026-10-30 16:48:02,501 [INFO] automation: ============================================================
+2026-10-30 16:48:02,501 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:48:02.501741
+2026-10-30 16:48:02,509 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:48:02,510 [INFO] automation: [DISCOVER] OK : 0
+2026-10-30 16:48:02,524 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:48:02,525 [INFO] automation: [FILTER] OK : 30
+2026-10-30 16:48:02,528 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:48:02,528 [INFO] automation: [SEND] OK : 0
+2026-10-30 16:48:02,528 [INFO] automation: PIPELINE END
+2026-10-30 16:48:02,529 [INFO] automation: ============================================================
+2026-10-30 16:48:02,529 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:48:02
+2026-10-30 16:48:02,529 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:49:02 IST)" executed successfully
+2026-10-30 16:49:02,500 [INFO] apscheduler.executors.default: Running job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:50:02 IST)" (scheduled at 2026-10-30 16:49:02.489755+05:30)
+2026-10-30 16:49:02,501 [INFO] automation: ============================================================
+2026-10-30 16:49:02,501 [INFO] automation: PIPELINE START niche=fitness at 2026-10-30T16:49:02.501313
+2026-10-30 16:49:02,511 [INFO] automation: [DISCOVER] fetched=50 new_inserted=0 niche=fitness
+2026-10-30 16:49:02,511 [INFO] automation: [DISCOVER] OK : 0
+2026-10-30 16:49:02,533 [INFO] automation: [FILTER] total=139 passed=30 niche=fitness
+2026-10-30 16:49:02,533 [INFO] automation: [FILTER] OK : 30
+2026-10-30 16:49:02,535 [INFO] automation: [SEND] completed sent=0
+2026-10-30 16:49:02,535 [INFO] automation: [SEND] OK : 0
+2026-10-30 16:49:02,535 [INFO] automation: PIPELINE END
+2026-10-30 16:49:02,536 [INFO] automation: ============================================================
+2026-10-30 16:49:02,536 [INFO] notifier: [Slack disabled] ? *Influencer Pipeline* ? niche=`fitness`
+? Discover: ok (0)
+? Filter: ok (30)
+? Send: ok (0)
+? Time: 2026-10-30 16:49:02
+2026-10-30 16:49:02,536 [INFO] apscheduler.executors.default: Job "run_full_pipeline (trigger: interval[0:01:00], next run at: 2026-10-30 16:50:02 IST)" executed successfully
+2026-10-30 16:49:40,005 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-10-30 16:49:40,009 [INFO] automation: Scheduler stopped
+2026-10-30 16:49:46,242 [INFO] personalization: [Personalize] Template generated successfully: Yuki Reed
+2026-10-30 16:49:46,243 [INFO] personalization: [Personalize] Template generated successfully: Sara Monroe
+2026-10-30 16:49:46,244 [INFO] personalization: [Personalize] Template generated successfully: Tara Adeyemi
+2026-10-30 16:49:46,244 [INFO] personalization: [Personalize] Template generated successfully: Priya Chen
+2026-10-30 16:49:46,245 [INFO] personalization: [Personalize] Template generated successfully: Emma Foster
+2026-10-30 16:49:46,246 [INFO] personalization: [Personalize] Template generated successfully: Jack Rivera
+2026-10-30 16:49:46,246 [INFO] personalization: [Personalize] Template generated successfully: Kavya Singh
+2026-10-30 16:49:46,246 [INFO] personalization: [Personalize] Template generated successfully: Sara Reed
+2026-10-30 16:49:46,247 [INFO] personalization: [Personalize] Template generated successfully: Maya R. Santos
+2026-10-30 16:49:46,247 [INFO] personalization: [Personalize] Template generated successfully: Mina Santos
+2026-10-30 16:49:46,248 [INFO] personalization: [Personalize] Template generated successfully: Liam Chen
+2026-10-30 16:49:46,249 [INFO] personalization: [Personalize] Template generated successfully: Ethan Nakamura
+2026-10-30 16:49:46,249 [INFO] personalization: [Personalize] Template generated successfully: Leila Singh
+2026-10-30 16:49:46,250 [INFO] personalization: [Personalize] Template generated successfully: Kavya Monroe
+2026-10-30 16:49:46,251 [INFO] personalization: [Personalize] Template generated successfully: Avery Hassan
+2026-10-30 16:49:46,251 [INFO] personalization: [Personalize] Template generated successfully: Ryan Tanaka
+2026-10-30 16:49:46,251 [INFO] personalization: [Personalize] Template generated successfully: Yuki Rivera
+2026-10-30 16:49:46,252 [INFO] personalization: [Personalize] Template generated successfully: Mason Y. Nakamura
+2026-10-30 16:49:46,252 [INFO] personalization: [Personalize] Template generated successfully: Parker N. Hassan
+2026-10-30 16:49:46,253 [INFO] personalization: [Personalize] Template generated successfully: Suki Price
+2026-10-30 16:49:46,254 [INFO] personalization: [Personalize] Template generated successfully: Jordan Cole
+2026-10-30 16:49:46,254 [INFO] personalization: [Personalize] Template generated successfully: Sara Patel
+2026-10-30 16:49:46,255 [INFO] personalization: [Personalize] Template generated successfully: Aiden Ferreira
+2026-10-30 16:49:46,256 [INFO] personalization: [Personalize] Template generated successfully: Kwame Singh
+2026-10-30 16:49:46,257 [INFO] personalization: [Personalize] Template generated successfully: Carlos X. Monroe
+2026-10-30 16:49:46,257 [INFO] personalization: [Personalize] Template generated successfully: Lily Santos
+2026-10-30 16:49:46,257 [INFO] personalization: [Personalize] Template generated successfully: Miguel Hassan
+2026-10-30 16:49:46,259 [INFO] personalization: [Personalize] Template generated successfully: Jae Okafor
+2026-10-30 16:49:46,259 [INFO] personalization: [Personalize] Template generated successfully: Liam Torres
+2026-10-30 16:49:46,260 [INFO] personalization: [Personalize] Template generated successfully: Miguel Martinez
+2026-10-30 16:50:08,827 [INFO] personalization: [Personalize] Template generated successfully: Yuki Reed
+2026-10-30 16:50:08,831 [INFO] sending: [Send] Skipped (duplicate): Yuki Reed
+2026-10-30 16:50:08,831 [INFO] personalization: [Personalize] Template generated successfully: Sara Monroe
+2026-10-30 16:50:08,834 [INFO] sending: [Send] Skipped (duplicate): Sara Monroe
+2026-10-30 16:50:08,835 [INFO] personalization: [Personalize] Template generated successfully: Tara Adeyemi
+2026-10-30 16:50:08,838 [INFO] sending: [Send] Skipped (duplicate): Tara Adeyemi
+2026-10-30 16:50:08,839 [INFO] personalization: [Personalize] Template generated successfully: Priya Chen
+2026-10-30 16:50:08,842 [INFO] sending: [Send] Skipped (duplicate): Priya Chen
+2026-10-30 16:50:08,843 [INFO] personalization: [Personalize] Template generated successfully: Emma Foster
+2026-10-30 16:50:08,846 [INFO] sending: [Send] Skipped (duplicate): Emma Foster
+2026-10-30 16:50:08,847 [INFO] personalization: [Personalize] Template generated successfully: Jack Rivera
+2026-10-30 16:50:08,851 [INFO] sending: [Send] Skipped (duplicate): Jack Rivera
+2026-10-30 16:50:08,852 [INFO] personalization: [Personalize] Template generated successfully: Kavya Singh
+2026-10-30 16:50:08,858 [INFO] sending: [Send] Skipped (duplicate): Kavya Singh
+2026-10-30 16:50:08,859 [INFO] personalization: [Personalize] Template generated successfully: Sara Reed
+2026-10-30 16:50:08,862 [INFO] sending: [Send] Skipped (duplicate): Sara Reed
+2026-10-30 16:50:08,863 [INFO] personalization: [Personalize] Template generated successfully: Maya R. Santos
+2026-10-30 16:50:08,867 [INFO] sending: [Send] Skipped (duplicate): Maya R. Santos
+2026-10-30 16:50:08,868 [INFO] personalization: [Personalize] Template generated successfully: Mina Santos
+2026-10-30 16:50:08,871 [INFO] sending: [Send] Skipped (duplicate): Mina Santos
+2026-10-30 16:50:08,872 [INFO] personalization: [Personalize] Template generated successfully: Liam Chen
+2026-10-30 16:50:08,876 [INFO] sending: [Send] Skipped (duplicate): Liam Chen
+2026-10-30 16:50:08,877 [INFO] personalization: [Personalize] Template generated successfully: Ethan Nakamura
+2026-10-30 16:50:08,880 [INFO] sending: [Send] Skipped (duplicate): Ethan Nakamura
+2026-10-30 16:50:08,881 [INFO] personalization: [Personalize] Template generated successfully: Leila Singh
+2026-10-30 16:50:08,886 [INFO] sending: [Send] Skipped (duplicate): Leila Singh
+2026-10-30 16:50:08,887 [INFO] personalization: [Personalize] Template generated successfully: Kavya Monroe
+2026-10-30 16:50:08,891 [INFO] sending: [Send] Skipped (duplicate): Kavya Monroe
+2026-10-30 16:50:08,892 [INFO] personalization: [Personalize] Template generated successfully: Avery Hassan
+2026-10-30 16:50:08,897 [INFO] sending: [Send] Skipped (duplicate): Avery Hassan
+2026-10-30 16:50:08,898 [INFO] personalization: [Personalize] Template generated successfully: Ryan Tanaka
+2026-10-30 16:50:08,901 [INFO] sending: [Send] Skipped (duplicate): Ryan Tanaka
+2026-10-30 16:50:08,902 [INFO] personalization: [Personalize] Template generated successfully: Yuki Rivera
+2026-10-30 16:50:08,906 [INFO] sending: [Send] Skipped (duplicate): Yuki Rivera
+2026-10-30 16:50:08,907 [INFO] personalization: [Personalize] Template generated successfully: Mason Y. Nakamura
+2026-10-30 16:50:08,911 [INFO] sending: [Send] Skipped (duplicate): Mason Y. Nakamura
+2026-10-30 16:50:08,912 [INFO] personalization: [Personalize] Template generated successfully: Parker N. Hassan
+2026-10-30 16:50:08,916 [INFO] sending: [Send] Skipped (duplicate): Parker N. Hassan
+2026-10-30 16:50:08,917 [INFO] personalization: [Personalize] Template generated successfully: Suki Price
+2026-10-30 16:50:08,921 [INFO] sending: [Send] Skipped (duplicate): Suki Price
+2026-10-30 16:50:08,921 [INFO] personalization: [Personalize] Template generated successfully: Jordan Cole
+2026-10-30 16:50:08,926 [INFO] sending: [Send] Skipped (duplicate): Jordan Cole
+2026-10-30 16:50:08,927 [INFO] personalization: [Personalize] Template generated successfully: Sara Patel
+2026-10-30 16:50:08,930 [INFO] sending: [Send] Skipped (duplicate): Sara Patel
+2026-10-30 16:50:08,930 [INFO] personalization: [Personalize] Template generated successfully: Aiden Ferreira
+2026-10-30 16:50:08,934 [INFO] sending: [Send] Skipped (duplicate): Aiden Ferreira
+2026-10-30 16:50:08,935 [INFO] personalization: [Personalize] Template generated successfully: Kwame Singh
+2026-10-30 16:50:08,940 [INFO] sending: [Send] Skipped (duplicate): Kwame Singh
+2026-10-30 16:50:08,944 [INFO] personalization: [Personalize] Template generated successfully: Carlos X. Monroe
+2026-10-30 16:50:08,951 [INFO] sending: [Send] Skipped (duplicate): Carlos X. Monroe
+2026-10-30 16:50:08,954 [INFO] personalization: [Personalize] Template generated successfully: Lily Santos
+2026-10-30 16:50:08,959 [INFO] sending: [Send] Skipped (duplicate): Lily Santos
+2026-10-30 16:50:08,965 [INFO] personalization: [Personalize] Template generated successfully: Miguel Hassan
+2026-10-30 16:50:08,976 [INFO] sending: [Send] Skipped (duplicate): Miguel Hassan
+2026-10-30 16:50:08,984 [INFO] personalization: [Personalize] Template generated successfully: Jae Okafor
+2026-10-30 16:50:09,003 [INFO] sending: [Send] Skipped (duplicate): Jae Okafor
+2026-10-30 16:50:09,010 [INFO] personalization: [Personalize] Template generated successfully: Liam Torres
+2026-10-30 16:50:09,016 [INFO] sending: [Send] Skipped (duplicate): Liam Torres
+2026-10-30 16:50:09,021 [INFO] personalization: [Personalize] Template generated successfully: Miguel Martinez
+2026-10-30 16:50:09,030 [INFO] sending: [Send] Skipped (duplicate): Miguel Martinez
+2026-10-30 16:54:31,183 [INFO] main: Scheduler stopped on shutdown
+2026-10-30 17:06:03,034 [INFO] main: Database initialised
+2026-10-30 17:14:31,583 [INFO] personalization: [Personalize] Template generated successfully: Ryan Hayes
+2026-10-30 17:14:31,586 [INFO] personalization: [Personalize] Template generated successfully: Parker Nguyen
+2026-10-30 17:14:31,587 [INFO] personalization: [Personalize] Template generated successfully: Maya Cole
+2026-10-30 17:14:31,587 [INFO] personalization: [Personalize] Template generated successfully: Jae Kowalski
+2026-10-30 17:14:31,588 [INFO] personalization: [Personalize] Template generated successfully: Jade Brooks
+2026-10-30 17:14:31,588 [INFO] personalization: [Personalize] Template generated successfully: Tara Reed
+2026-10-30 17:14:31,589 [INFO] personalization: [Personalize] Template generated successfully: Riya Chen
+2026-10-30 17:14:31,589 [INFO] personalization: [Personalize] Template generated successfully: Quinn Dubois
+2026-10-30 17:14:31,590 [INFO] personalization: [Personalize] Template generated successfully: Mason Singh
+2026-10-30 17:14:31,590 [INFO] personalization: [Personalize] Template generated successfully: Lily Adeyemi
+2026-10-30 17:14:31,591 [INFO] personalization: [Personalize] Template generated successfully: Kavya Torres
+2026-10-30 17:14:31,592 [INFO] personalization: [Personalize] Template generated successfully: Jack Price
+2026-10-30 17:14:31,592 [INFO] personalization: [Personalize] Template generated successfully: Sara Ferreira
+2026-10-30 17:14:31,593 [INFO] personalization: [Personalize] Template generated successfully: Kira Patel
+2026-10-30 17:14:31,594 [INFO] personalization: [Personalize] Template generated successfully: Ethan Rivera
+2026-10-30 17:14:31,594 [INFO] personalization: [Personalize] Template generated successfully: Mateo Brooks
+2026-10-30 17:14:31,596 [INFO] personalization: [Personalize] Template generated successfully: Sophie Tanaka
+2026-10-30 17:14:31,596 [INFO] personalization: [Personalize] Template generated successfully: Mason Price
+2026-10-30 17:14:31,597 [INFO] personalization: [Personalize] Template generated successfully: Avery Rossi
+2026-10-30 17:14:31,597 [INFO] personalization: [Personalize] Template generated successfully: Jae Ramirez
+2026-10-30 17:14:31,598 [INFO] personalization: [Personalize] Template generated successfully: Zoe Tanaka
+2026-10-30 17:14:31,598 [INFO] personalization: [Personalize] Template generated successfully: Parker Hayes
+2026-10-30 17:14:31,599 [INFO] personalization: [Personalize] Template generated successfully: Maya Nguyen
+2026-10-30 17:14:31,600 [INFO] personalization: [Personalize] Template generated successfully: Kira Nguyen
+2026-10-30 17:14:31,600 [INFO] personalization: [Personalize] Template generated successfully: Alex Nakamura
+2026-10-30 17:14:31,601 [INFO] personalization: [Personalize] Template generated successfully: Aisha Tanaka
+2026-10-30 17:14:31,601 [INFO] personalization: [Personalize] Template generated successfully: Kira Torres
+2026-10-30 17:14:31,602 [INFO] personalization: [Personalize] Template generated successfully: Kwame Muller
+2026-10-30 17:14:31,603 [INFO] personalization: [Personalize] Template generated successfully: Zoe Nakamura
+2026-10-30 17:14:31,604 [INFO] personalization: [Personalize] Template generated successfully: Leila Rivera
+2026-10-30 17:14:31,605 [INFO] personalization: [Personalize] Template generated successfully: Avery Patel
+2026-10-30 17:14:31,605 [INFO] personalization: [Personalize] Template generated successfully: Miguel Foster
+2026-10-30 17:14:31,606 [INFO] personalization: [Personalize] Template generated successfully: Ryan Nakamura
+2026-10-30 17:14:31,606 [INFO] personalization: [Personalize] Template generated successfully: Miguel Brooks
+2026-10-30 17:17:05,134 [INFO] personalization: [Personalize] Template generated successfully: Ryan Hayes
+2026-10-30 17:17:05,142 [INFO] sending: [Send] Skipped (duplicate): Ryan Hayes
+2026-10-30 17:17:05,143 [INFO] personalization: [Personalize] Template generated successfully: Parker Nguyen
+2026-10-30 17:17:05,148 [INFO] sending: [Send] Skipped (duplicate): Parker Nguyen
+2026-10-30 17:17:05,149 [INFO] personalization: [Personalize] Template generated successfully: Maya Cole
+2026-10-30 17:17:05,152 [INFO] sending: [Send] Skipped (duplicate): Maya Cole
+2026-10-30 17:17:05,153 [INFO] personalization: [Personalize] Template generated successfully: Jae Kowalski
+2026-10-30 17:17:05,157 [INFO] sending: [Send] Skipped (duplicate): Jae Kowalski
+2026-10-30 17:17:05,158 [INFO] personalization: [Personalize] Template generated successfully: Jade Brooks
+2026-10-30 17:17:05,161 [INFO] sending: [Send] Skipped (duplicate): Jade Brooks
+2026-10-30 17:17:05,163 [INFO] personalization: [Personalize] Template generated successfully: Tara Reed
+2026-10-30 17:17:05,168 [INFO] sending: [Send] Skipped (duplicate): Tara Reed
+2026-10-30 17:17:05,169 [INFO] personalization: [Personalize] Template generated successfully: Riya Chen
+2026-10-30 17:17:05,173 [INFO] sending: [Send] Skipped (duplicate): Riya Chen
+2026-10-30 17:17:05,174 [INFO] personalization: [Personalize] Template generated successfully: Quinn Dubois
+2026-10-30 17:17:05,181 [INFO] sending: [Send] Skipped (duplicate): Quinn Dubois
+2026-10-30 17:17:05,182 [INFO] personalization: [Personalize] Template generated successfully: Mason Singh
+2026-10-30 17:17:05,185 [INFO] sending: [Send] Skipped (duplicate): Mason Singh
+2026-10-30 17:17:05,186 [INFO] personalization: [Personalize] Template generated successfully: Lily Adeyemi
+2026-10-30 17:17:05,190 [INFO] sending: [Send] Skipped (duplicate): Lily Adeyemi
+2026-10-30 17:17:05,191 [INFO] personalization: [Personalize] Template generated successfully: Kavya Torres
+2026-10-30 17:17:05,195 [INFO] sending: [Send] Skipped (duplicate): Kavya Torres
+2026-10-30 17:17:05,196 [INFO] personalization: [Personalize] Template generated successfully: Jack Price
+2026-10-30 17:17:05,200 [INFO] sending: [Send] Skipped (duplicate): Jack Price
+2026-10-30 17:17:05,200 [INFO] personalization: [Personalize] Template generated successfully: Sara Ferreira
+2026-10-30 17:17:05,204 [INFO] sending: [Send] Skipped (duplicate): Sara Ferreira
+2026-10-30 17:17:05,205 [INFO] personalization: [Personalize] Template generated successfully: Kira Patel
+2026-10-30 17:17:05,209 [INFO] sending: [Send] Skipped (duplicate): Kira Patel
+2026-10-30 17:17:05,210 [INFO] personalization: [Personalize] Template generated successfully: Ethan Rivera
+2026-10-30 17:17:05,213 [INFO] sending: [Send] Skipped (duplicate): Ethan Rivera
+2026-10-30 17:17:05,214 [INFO] personalization: [Personalize] Template generated successfully: Mateo Brooks
+2026-10-30 17:17:05,218 [INFO] sending: [Send] Skipped (duplicate): Mateo Brooks
+2026-10-30 17:17:05,218 [INFO] personalization: [Personalize] Template generated successfully: Sophie Tanaka
+2026-10-30 17:17:05,224 [INFO] sending: [Send] Skipped (duplicate): Sophie Tanaka
+2026-10-30 17:17:05,224 [INFO] personalization: [Personalize] Template generated successfully: Mason Price
+2026-10-30 17:17:05,228 [INFO] sending: [Send] Skipped (duplicate): Mason Price
+2026-10-30 17:17:05,230 [INFO] personalization: [Personalize] Template generated successfully: Avery Rossi
+2026-10-30 17:17:05,233 [INFO] sending: [Send] Skipped (duplicate): Avery Rossi
+2026-10-30 17:17:05,234 [INFO] personalization: [Personalize] Template generated successfully: Jae Ramirez
+2026-10-30 17:17:05,238 [INFO] sending: [Send] Skipped (duplicate): Jae Ramirez
+2026-10-30 17:17:05,239 [INFO] personalization: [Personalize] Template generated successfully: Zoe Tanaka
+2026-10-30 17:17:05,242 [INFO] sending: [Send] Skipped (duplicate): Zoe Tanaka
+2026-10-30 17:17:05,243 [INFO] personalization: [Personalize] Template generated successfully: Parker Hayes
+2026-10-30 17:17:05,247 [INFO] sending: [Send] Skipped (duplicate): Parker Hayes
+2026-10-30 17:17:05,248 [INFO] personalization: [Personalize] Template generated successfully: Maya Nguyen
+2026-10-30 17:17:05,251 [INFO] sending: [Send] Skipped (duplicate): Maya Nguyen
+2026-10-30 17:17:05,252 [INFO] personalization: [Personalize] Template generated successfully: Kira Nguyen
+2026-10-30 17:17:05,257 [INFO] sending: [Send] Skipped (duplicate): Kira Nguyen
+2026-10-30 17:17:05,258 [INFO] personalization: [Personalize] Template generated successfully: Alex Nakamura
+2026-10-30 17:17:05,261 [INFO] sending: [Send] Skipped (duplicate): Alex Nakamura
+2026-10-30 17:17:05,262 [INFO] personalization: [Personalize] Template generated successfully: Aisha Tanaka
+2026-10-30 17:17:05,266 [INFO] sending: [Send] Skipped (duplicate): Aisha Tanaka
+2026-10-30 17:17:05,266 [INFO] personalization: [Personalize] Template generated successfully: Kira Torres
+2026-10-30 17:17:05,270 [INFO] sending: [Send] Skipped (duplicate): Kira Torres
+2026-10-30 17:17:05,270 [INFO] personalization: [Personalize] Template generated successfully: Kwame Muller
+2026-10-30 17:17:05,274 [INFO] sending: [Send] Skipped (duplicate): Kwame Muller
+2026-10-30 17:17:05,275 [INFO] personalization: [Personalize] Template generated successfully: Zoe Nakamura
+2026-10-30 17:17:05,280 [INFO] sending: [Send] Skipped (duplicate): Zoe Nakamura
+2026-10-30 17:17:05,281 [INFO] personalization: [Personalize] Template generated successfully: Leila Rivera
+2026-10-30 17:17:05,285 [INFO] sending: [Send] Skipped (duplicate): Leila Rivera
+2026-10-30 17:17:05,286 [INFO] personalization: [Personalize] Template generated successfully: Avery Patel
+2026-10-30 17:17:05,289 [INFO] sending: [Send] Skipped (duplicate): Avery Patel
+2026-10-30 17:17:05,290 [INFO] personalization: [Personalize] Template generated successfully: Miguel Foster
+2026-10-30 17:17:05,300 [INFO] sending: [Send] Skipped (duplicate): Miguel Foster
+2026-10-30 17:17:05,302 [INFO] personalization: [Personalize] Template generated successfully: Ryan Nakamura
+2026-10-30 17:17:05,314 [INFO] sending: [Send] Skipped (duplicate): Ryan Nakamura
+2026-10-30 17:17:05,317 [INFO] personalization: [Personalize] Template generated successfully: Miguel Brooks
+2026-10-30 17:17:05,344 [INFO] sending: [Send] Skipped (duplicate): Miguel Brooks
+2026-10-30 17:28:31,029 [INFO] main: Scheduler stopped on shutdown

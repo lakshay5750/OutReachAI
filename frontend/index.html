@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Micro-Influencer Outreach System</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-icon">🎯</span>
+      <span class="logo-text">OutreachAI</span>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#automation"  class="nav-item active" data-section="automation">
+        <span class="nav-icon">🤖</span> Automation
+      </a>
+      <a href="#discover"    class="nav-item" data-section="discover">
+        <span class="nav-icon">🔍</span> Discover
+      </a>
+      <a href="#filter"      class="nav-item" data-section="filter">
+        <span class="nav-icon">✅</span> Filter
+      </a>
+      <a href="#personalize" class="nav-item" data-section="personalize">
+        <span class="nav-icon">✉️</span> Personalize
+      </a>
+      <a href="#send"        class="nav-item" data-section="send">
+        <span class="nav-icon">🚀</span> Send
+      </a>
+      <a href="#tracker"     class="nav-item" data-section="tracker">
+        <span class="nav-icon">📋</span> Tracker
+      </a>
+    </nav>
+    <div class="sidebar-stats">
+      <div class="mini-stat"><span id="s-total">—</span><small>Discovered</small></div>
+      <div class="mini-stat"><span id="s-passed">—</span><small>Passed</small></div>
+      <div class="mini-stat"><span id="s-sent">—</span><small>Sent</small></div>
+    </div>
+  </aside>
+
+  <main class="main-content">
+
+    <!-- ── AUTOMATION ──────────────────────────────────────────── -->
+    <section id="automation" class="page active">
+      <div class="page-header">
+        <h1>🤖 Automated Pipeline</h1>
+        <p class="page-sub">Runs the full pipeline on a schedule: Discover → Filter → Enrich → Personalize → Send → Track</p>
+      </div>
+
+      <div class="card">
+        <h2>Pipeline Controls</h2>
+        <div class="control-row">
+          <label class="field-label">Niche
+            <select id="autoNiche" class="input-select">
+              <option value="fitness">💪 Fitness</option>
+              <option value="beauty">💄 Beauty</option>
+              <option value="fashion">👗 Fashion</option>
+              <option value="fintech">💰 Fintech</option>
+              <option value="crypto">₿ Crypto</option>
+              <option value="parenting">👶 Parenting</option>
+              <option value="gaming">🎮 Gaming</option>
+              <option value="lifestyle">🌿 Lifestyle</option>
+              <option value="technology">💻 Technology</option>
+            </select>
+          </label>
+          <label class="field-label">Interval (min)
+            <input type="number" id="autoInterval" class="input-num" value="30" min="1" max="1440" />
+          </label>
+          <div class="btn-group">
+            <button class="btn btn-primary" onclick="startAuto()">▶ Start</button>
+            <button class="btn btn-ghost"   onclick="stopAuto()">⏹ Stop</button>
+            <button class="btn btn-accent"  onclick="runOnce()">⚡ Run Once</button>
+          </div>
+        </div>
+        <div id="autoStatus" class="status-bar idle">
+          <span class="dot"></span> Idle — automation not running
+        </div>
+        <div id="autoJobs" class="jobs-info"></div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card"><div class="stat-num" id="st-total">—</div><div class="stat-label">Discovered</div></div>
+        <div class="stat-card"><div class="stat-num" id="st-passed">—</div><div class="stat-label">Passed Filter</div></div>
+        <div class="stat-card"><div class="stat-num" id="st-sent">—</div><div class="stat-label">Outreach Sent</div></div>
+        <div class="stat-card"><div class="stat-num" id="st-skipped">—</div><div class="stat-label">Skipped</div></div>
+        <div class="stat-card"><div class="stat-num" id="st-failed">—</div><div class="stat-label">Failed</div></div>
+      </div>
+
+      <div class="card export-card">
+        <h2>📥 Export Data</h2>
+        <p class="hint">Download your influencer dataset and outreach messages as CSV files.</p>
+        <div class="btn-group">
+          <a href="/api/export/influencers.csv" download class="btn btn-outline">⬇ Influencers CSV</a>
+          <a href="/api/export/messages.csv"    download class="btn btn-outline">⬇ Messages CSV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── DISCOVER ───────────────────────────────────────────── -->
+    <section id="discover" class="page">
+      <div class="page-header">
+        <h1>🔍 Discover Influencers</h1>
+        <p class="page-sub">Fetch micro-influencer profiles (5K–100K followers) for your chosen niche.</p>
+      </div>
+      <div class="card">
+        <div class="control-row">
+          <label class="field-label">Niche
+            <select id="discNiche" class="input-select">
+              <option value="fitness">💪 Fitness</option>
+              <option value="beauty">💄 Beauty</option>
+              <option value="fashion">👗 Fashion</option>
+              <option value="fintech">💰 Fintech</option>
+              <option value="crypto">₿ Crypto</option>
+              <option value="parenting">👶 Parenting</option>
+              <option value="gaming">🎮 Gaming</option>
+              <option value="lifestyle">🌿 Lifestyle</option>
+              <option value="technology">💻 Technology</option>
+            </select>
+          </label>
+          <label class="field-label">Limit
+            <input type="number" id="discLimit" class="input-num" value="50" min="50" max="200" />
+          </label>
+          <button class="btn btn-primary" id="btnDiscover" onclick="runDiscovery()">Discover</button>
+        </div>
+        <div id="discStatus" class="status-bar" style="display:none"></div>
+      </div>
+
+      <div id="discResults" class="card table-card" style="display:none">
+        <div class="table-header">
+          <h2>Results <span id="discCount" class="badge-count"></span></h2>
+          <input type="text" id="discSearch" class="search-input" placeholder="Search name, niche…" oninput="filterTable('tblDisc', this.value)" />
+        </div>
+        <div class="table-wrap">
+          <table id="tblDisc">
+            <thead>
+              <tr>
+                <th>Name</th><th>Platform</th><th>Followers</th>
+                <th>Engagement</th><th>Niche</th><th>Email</th><th>Bio</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FILTER ─────────────────────────────────────────────── -->
+    <section id="filter" class="page">
+      <div class="page-header">
+        <h1>✅ Filter & Classify</h1>
+        <p class="page-sub">Apply multi-criteria rules and AI-powered niche classification to shortlist the best influencers.</p>
+      </div>
+      <div class="card">
+        <div class="control-row">
+          <label class="field-label">Target Niche
+            <select id="filtNiche" class="input-select">
+              <option value="fitness">💪 Fitness</option>
+              <option value="beauty">💄 Beauty</option>
+              <option value="fashion">👗 Fashion</option>
+              <option value="fintech">💰 Fintech</option>
+              <option value="crypto">₿ Crypto</option>
+              <option value="parenting">👶 Parenting</option>
+              <option value="gaming">🎮 Gaming</option>
+              <option value="lifestyle">🌿 Lifestyle</option>
+              <option value="technology">💻 Technology</option>
+            </select>
+          </label>
+          <button class="btn btn-primary" onclick="runFilter()">Apply Filter</button>
+        </div>
+        <div id="filtStatus" class="status-bar" style="display:none"></div>
+      </div>
+
+      <div id="filtResults" style="display:none">
+        <div class="tabs-row">
+          <button class="tab-btn active" onclick="switchTab('passed', this)">
+            Passed <span id="passedCount" class="badge-count">0</span>
+          </button>
+          <button class="tab-btn" onclick="switchTab('failed', this)">
+            Failed <span id="failedCount" class="badge-count">0</span>
+          </button>
+        </div>
+        <div id="tabPassed" class="filter-grid"></div>
+        <div id="tabFailed"  class="filter-grid" style="display:none"></div>
+      </div>
+    </section>
+
+    <!-- ── PERSONALIZE ────────────────────────────────────────── -->
+    <section id="personalize" class="page">
+      <div class="page-header">
+        <h1>✉️ AI Personalization</h1>
+        <p class="page-sub">Generate personalized email pitches (60–90 words) and Instagram DMs (15–30 words) using Groq LLM.</p>
+      </div>
+      <div class="card">
+        <button class="btn btn-primary" onclick="runPersonalize()">Generate Messages</button>
+        <div id="persStatus" class="status-bar" style="display:none"></div>
+      </div>
+      <div id="persResults" style="display:none"></div>
+    </section>
+
+    <!-- ── SEND ──────────────────────────────────────────────── -->
+    <section id="send" class="page">
+      <div class="page-header">
+        <h1>🚀 Send Outreach</h1>
+        <p class="page-sub">Send (or simulate) personalized emails to all qualifying influencers. Duplicate prevention is automatic.</p>
+      </div>
+      <div class="card">
+        <div class="info-banner">
+          <strong>Send mode</strong> is controlled by <code>SEND_MODE</code> in your <code>.env</code> file.
+          Set to <code>smtp</code> with your credentials to send real emails, or leave as
+          <code>simulate</code> for a dry run.
+        </div>
+        <button class="btn btn-primary" onclick="runSend()">Send / Simulate Outreach</button>
+        <div id="sendStatus" class="status-bar" style="display:none"></div>
+        <div id="sendResults" class="send-results"></div>
+      </div>
+    </section>
+
+    <!-- ── TRACKER ────────────────────────────────────────────── -->
+    <section id="tracker" class="page">
+      <div class="page-header">
+        <h1>📋 Outreach Tracker</h1>
+        <p class="page-sub">Full log of every outreach attempt with status, timestamp, and message preview.</p>
+      </div>
+      <div class="card">
+        <div class="table-header">
+          <button class="btn btn-ghost btn-sm" onclick="refreshLog()">↻ Refresh</button>
+          <input type="text" class="search-input" placeholder="Search influencer or email…" oninput="filterTable('tblLog', this.value)" />
+        </div>
+        <div class="table-wrap">
+          <table id="tblLog">
+            <thead>
+              <tr>
+                <th>Influencer</th><th>Platform</th><th>Email</th>
+                <th>Subject</th><th>DM Preview</th><th>Sent At</th><th>Status</th>
+              </tr>
+            </thead>
+            <tbody><tr><td colspan="7" class="empty-row">No outreach records yet.</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
