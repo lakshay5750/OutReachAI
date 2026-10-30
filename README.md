@@ -326,7 +326,7 @@ To scale from 50 to 500+ influencers:
 
 ### 4. AI Email Personalization
 
-![Email Generation](screenshots/personalization1.png)
+![Email Generation](screenshots/personalization2.png)
 
 ### 5. Instagram DM Generation
 
